@@ -41,7 +41,7 @@ const sequelize =
         logging: DEBUG,
       });
 
-const SESSION_STRING = process.env.SESSION || process.env.SESSION_ID;RGNK~m8GNJnHw
+const SESSION_STRING = process.env.SESSION || process.env.SESSION_ID;RGNK~0x7E9AfG
 
 const SESSION = SESSION_STRING
   ? SESSION_STRING.split(",").map((s) => s.split("~")[1].trim())
@@ -282,4 +282,5 @@ Object.defineProperty(config, "debug", {
 });
 
 module.exports = config;
+
 
